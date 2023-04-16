@@ -30,7 +30,7 @@ class App extends React.Component {
         for (let el of data) {
           let child = [];
           for (let i of el) {
-            let sub_div = React.createElement('div', { style: { width: i.width, height: i.height, left: i.x, top: i.y, backgroundColor: 'red', position: 'absolute' } })
+            let sub_div = React.createElement('div', { style: { width: i.width, height: i.height, left: i.x, top: i.y, backgroundColor: '#3ECB87', position: 'absolute' } })
             child.push(sub_div);
           }
           let dop_div = React.createElement('div', { style: { display: 'flex', flexDirection: 'row' } }, child);
